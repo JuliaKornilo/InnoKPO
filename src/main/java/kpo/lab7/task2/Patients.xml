@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patients xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance">
+    <patient id="1">
+        <first_name>Petr</first_name>
+        <last_name>Petrov</last_name>
+        <patronymic>Petrovich</patronymic>
+        <birth_date>2001-01-01</birth_date>
+        <policy>1234567891234567</policy>
+        <test>
+            <date>2021-09-20</date>
+            <type>lgG</type>
+            <laboratory_id>1</laboratory_id>
+        </test>
+    </patient>
+
+    <patient id="2">
+        <first_name>Ivan</first_name>
+        <last_name>Ivanov</last_name>
+        <patronymic>Ivanovich</patronymic>
+        <birth_date>2002-10-22</birth_date>
+        <policy>1234566591234567</policy>
+        <test>
+            <date>2021-09-23</date>
+            <type>lgG</type>
+            <laboratory_id>1</laboratory_id>
+        </test>
+        <test>
+            <date>2021-09-23</date>
+            <type>lgM</type>
+            <laboratory_id>1</laboratory_id>
+        </test>
+    </patient>
+
+    <patient id="3">
+        <first_name>Sidor</first_name>
+        <last_name>Sidorov</last_name>
+        <patronymic>Sidorovich</patronymic>
+        <birth_date>2003-02-15</birth_date>
+        <policy>1234567891234567</policy>
+        <test>
+            <date>2021-09-01</date>
+            <type>lgM</type>
+            <laboratory_id>2</laboratory_id>
+        </test>
+    </patient>
+</patients>
